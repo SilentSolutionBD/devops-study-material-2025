@@ -92,13 +92,13 @@ Regarding security, data transmitted between the primary and replica servers may
 if encryption and access controls are not correctly configured.
 
 
-Step 1 — Installing MySQL (Both Server)
+#### Step 1 — Installing MySQL (Both Server)
+```shell 
  #sudo apt update
  #sudo apt install mysql-server
  #sudo systemctl start mysql.service
  #sudo mysql_secure_installation
-
-
+```
 ## Configure Master to Slave Asynchronous
 
 #### Check 3306 port enable or not 
