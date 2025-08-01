@@ -1,3 +1,5 @@
+
+
 ## MySQL replication types and formats
 ** Based on behavior, there are three types of MySQL replication, and they are synchronous, semisynchronous, and asynchronous. **
 
@@ -90,6 +92,11 @@ Regarding security, data transmitted between the primary and replica servers may
 if encryption and access controls are not correctly configured.
 
 
+Step 1 — Installing MySQL (Both Server)
+ #sudo apt update
+ #sudo apt install mysql-server
+ #sudo systemctl start mysql.service
+ #sudo mysql_secure_installation
 
 
 ## Configure Master to Slave Asynchronous
